@@ -27,5 +27,22 @@ int main() {
         passos++;
     } while (passos < 8);
 
+    // ---------- Cavalo ----------
+    // O Cavalo se move em "L": 2 casas em uma direção + 1 casa perpendicular
+
+    printf("\nMovimento do Cavalo:\n");
+
+    // Laço externo (for) para as duas casas para baixo
+    for (int j = 0; j < 2; j++) {
+        printf("Baixo\n");
+    }
+
+    // Laço interno (while) para uma casa para a esquerda
+    int esquerda = 0;
+    while (esquerda < 1) {
+        printf("Esquerda\n");
+        esquerda++;
+    }
+
     return 0;
 }
